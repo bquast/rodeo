@@ -99,7 +99,6 @@ export default React.createClass({
       <Provider store={getStore()}>
         <FullScreen row>
           <StudioLayout />
-          <Sidebar />
           <ModalDialogViewer />
           <NotificationsContainer />
         </FullScreen>
